@@ -1,0 +1,46 @@
+# See https://git-scm.com/docs/gitignore for more information
+
+### Build output
+**/bin/
+**/obj/
+
+### Visual Studio temporary files
+*.suo
+*.user
+*.sln.docstates
+*.tmp
+*.userprefs
+*.cache
+*.vspscc
+*.vssscc
+.suo.cache
+.userresponse.json
+.vscode/
+_Local.appsettings.json
+
+### IDE-specific files
+.vs/
+*.tlog
+end_of_temp_doc
+
+### Output and log files
+*.log
+*.etl
+*.pid
+*.tmp
+
+### Library/package caches
+/packages/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Local configuration file
+*.env
+appsettings.Development.json
+
+### Test results
+**/test-results/
+
+### User-specific files
+.vscode/
